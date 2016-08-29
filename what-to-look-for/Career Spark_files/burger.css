@@ -1,20 +1,26 @@
-@import url(//fonts.googleapis.com/css?family=Montserrat:200,400,700);
-@import url(//fonts.googleapis.com/css?family=Libre+Baskerville:400,400italic,700);
-@import url(//fonts.googleapis.com/css?family=Muli:400,300,100,300italic,400italic);
-@import url(//fonts.googleapis.com/css?family=Lato:400,100,300,300italic,400italic,700,700italic,900,900italic,100italic);
-@import url(//fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,700);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:200,400,700);
+@import url(https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400italic,700);
+@import url(https://fonts.googleapis.com/css?family=Muli:400,300,100,300italic,400italic);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,100,300,300italic,400italic,700,700italic,900,900italic,100italic);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,700);
 @font-face {
   font-family: 'avenir';
-  src: url("/bundles/chamberfrontend/fonts/avenir-webfont.eot");
-  src: url("/bundles/chamberfrontend/fonts/avenir-webfont.eot?#iefix") format("embedded-opentype"), url("/bundles/chamberfrontend/fonts/avenir-webfont.woff") format("woff"), url("/bundles/chamberfrontend/fonts/avenir-webfont.ttf") format("truetype"), url("/bundles/chamberfrontend/fonts/avenir-webfont.svg#avenir") format("svg");
+  src: url("https://www.mycareerspark.org/bundles/chamberfrontend/fonts/avenir-webfont.eot");
+  src: url("https://www.mycareerspark.org/bundles/chamberfrontend/fonts/avenir-webfont.eot?#iefix")
+  format("embedded-opentype"), url("https://www.mycareerspark.org/bundles/chamberfrontend/fonts/avenir-webfont.woff") format("woff"),
+  url("https://www.mycareerspark.org/bundles/chamberfrontend/fonts/avenir-webfont.ttf") format("truetype"),
+  url("https://www.mycareerspark.org/bundles/chamberfrontend/fonts/avenir-webfont.svg#avenir") format("svg");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'libre_baskervilleitalic';
-  src: url("/bundles/chamberfrontend/fonts/librebaskerville-italic-webfont.eot");
-  src: url("/bundles/chamberfrontend/fonts/librebaskerville-italic-webfont.eot?#iefix") format("embedded-opentype"), url("/bundles/chamberfrontend/fonts/librebaskerville-italic-webfont.woff") format("woff"), url("/bundles/chamberfrontend/fonts/librebaskerville-italic-webfont.ttf") format("truetype"), url("/bundles/chamberfrontend/fonts/librebaskerville-italic-webfont.svg#libre_baskervilleitalic") format("svg");
+  src: url("https://www.mycareerspark.org/bundles/chamberfrontend/fonts/librebaskerville-italic-webfont.eot");
+  src: url("https://www.mycareerspark.org/bundles/chamberfrontend/fonts/librebaskerville-italic-webfont.eot?#iefix") format("embedded-opentype"),
+  url("https://www.mycareerspark.org/bundles/chamberfrontend/fonts/librebaskerville-italic-webfont.woff") format("woff"), url("https://www.mycareerspark.org/bundles/chamberfrontend/fonts/librebaskerville-italic-webfont.ttf") format("truetype"),
+  url("https://www.mycareerspark.org/bundles/chamberfrontend/fonts/librebaskerville-italic-webfont.svg#libre_baskervilleitalic")
+  format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -156,7 +162,7 @@ textarea {
 
 .inner-wrapper:before {
   content: '';
-  background: url(/bundles/chamberfrontend/images/nav-shadow.png);
+  background: url(nav-shadow.png);
   width: 16px;
   height: 100%;
   position: absolute;
@@ -191,14 +197,14 @@ h1, h2, h3, h4, h5 {
 
 .header {
   height: 160px;
-  background: url(/bundles/chamberfrontend/images/header-bg.png) repeat 0 0;
+  background: url(header-bg.png) repeat 0 0;
   width: 100%;
   display: block;
 }
 
 .header-mobile {
   height: 52px;
-  background: url(/bundles/chamberfrontend/images/header-mobile.png) right 0 no-repeat #25315f;
+  background: url(header-mobile.png) right 0 no-repeat #25315f;
   position: relative;
 }
 
@@ -208,7 +214,7 @@ h1, h2, h3, h4, h5 {
 
 #wrapper:before {
   content: '';
-  background: url(/bundles/chamberfrontend/images/nav-shadow.png);
+  background: url(nav-shadow.png);
   width: 16px;
   height: 100%;
   position: absolute;
@@ -254,7 +260,7 @@ h1, h2, h3, h4, h5 {
 
 .header-mobile {
   height: 53px;
-  background: url(/bundles/chamberfrontend/images/header-mobile.png) right 0 no-repeat #25315f;
+  background: url(header-mobile.png) right 0 no-repeat #25315f;
   position: absolute;
 }
 
@@ -272,13 +278,13 @@ h1, h2, h3, h4, h5 {
 
 .logo a {
   display: block;
-  background: url(/bundles/chamberfrontend/images/logo-mobile.png);
+  background: url(logo-mobile.png);
 }
 
 .nav-trigger {
   position: absolute;
   display: block;
-  background: url(/bundles/chamberfrontend/images/nav-trigger.png);
+  background: url(nav-trigger.png);
   width: 23px;
   height: 21px;
   top: 13px;
@@ -288,7 +294,7 @@ h1, h2, h3, h4, h5 {
 .account-btn {
   position: absolute;
   display: block;
-  background: url(/bundles/chamberfrontend/images/account-btn.png);
+  background: url(account-btn.png);
   width: 34px;
   height: 34px;
   top: 9px;
@@ -334,7 +340,7 @@ h3.layout-space.dark-blue {
 .home .section-get-started {
   /*height: 538px; /*573px;*/
   position: relative;
-  background-image: url("/bundles/chamberfrontend/images/section-bg.jpg");
+  background-image: url("section-bg.jpg");
   background-size: cover;
   background-position: 50% 50%;
 }
@@ -354,7 +360,7 @@ h3.layout-space.dark-blue {
 }
 
 .header-section, .video-section {
-  background: url(/bundles/chamberfrontend/images/home-bg.jpg);
+  background: url(home-bg.jpg);
   -webkit-background-size: cover;
   background-size: cover;
 }
@@ -369,7 +375,7 @@ h3.layout-space.dark-blue {
   width: 214px;
 }
 .static .header-section .logo a {
-  background: url(/bundles/chamberfrontend/images/logo-big.png);
+  background: url(logo-big.png);
 }
 .static .header-section .logo {
   left: 12px;
@@ -466,14 +472,14 @@ h3.layout-space.dark-blue {
 
 .btn-sign-in i {
   display: block;
-  background: url(/bundles/chamberfrontend/images/ico-acc2.png);
+  background: url(ico-acc2.png);
   width: 36px;
   height: 36px;
   margin: 4px auto;
 }
 
 .btn-sign-in span {
-  background: url(/bundles/chamberfrontend/images/arrow-dd.png) right center no-repeat;
+  background: url(arrow-dd.png) right center no-repeat;
   padding: 0 15px 0 0;
 }
 
@@ -1498,7 +1504,7 @@ h3.layout-space.dark-blue {
   font-size: 0;
   line-height: 0;
   text-indent: -4000px;
-  background: url(/bundles/chamberfrontend/images/socials.png);
+  background: url(socials.png);
 }
 
 .social ul li a.t-icon {
@@ -1587,12 +1593,12 @@ h3.layout-space.dark-blue {
   font-size: 14px;
   color: #fff;
   font-family: 'avenir';
-  background: url(/bundles/chamberfrontend/images/arrow-dd.png) right center no-repeat;
+  background: url(arrow-dd.png) right center no-repeat;
   padding: 0 18px 0 0;
 }
 
 .acc-trigger a .ico-acc {
-  background: url(/bundles/chamberfrontend/images/ico-acc.png) 0 0 no-repeat;
+  background: url(ico-acc.png) 0 0 no-repeat;
   position: absolute;
   width: 27px;
   height: 27px;
@@ -1657,7 +1663,7 @@ h3.layout-space.dark-blue {
 }
 
 .header-top {
-  background: url(/bundles/chamberfrontend/images/header-bg.jpg) center center no-repeat;
+  background: url(header-bg.jpg) center center no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -1674,7 +1680,7 @@ h3.layout-space.dark-blue {
 }
 
 .main-header .logo a {
-  background: url(/bundles/chamberfrontend/images/main-logo.png);
+  background: url(main-logo.png);
   width: 157px;
   height: 120px;
 }
@@ -1766,19 +1772,19 @@ h3.layout-space.dark-blue {
 }
 
 .main-navigation ul li.link-green i.ico-arrow {
-  background: url(/bundles/chamberfrontend/images/active-green.png);
+  background: url(active-green.png);
 }
 
 .main-navigation ul li.link-blue i.ico-arrow {
-  background: url(/bundles/chamberfrontend/images/active-blue.png);
+  background: url(active-blue.png);
 }
 
 .main-navigation ul li.link-red i.ico-arrow {
-  background: url(/bundles/chamberfrontend/images/active-red.png);
+  background: url(active-red.png);
 }
 
 .main-navigation ul li.link-yellow i.ico-arrow {
-  background: url(/bundles/chamberfrontend/images/active-yellow.png);
+  background: url(active-yellow.png);
 }
 
 .main-navigation ul li.active.link-green a,
@@ -1796,13 +1802,13 @@ h3.layout-space.dark-blue {
 #case-2 {
   height: 490px;
   position: relative;
-  background: #f6efe2 url(/bundles/chamberfrontend/images/case-2-bg.jpg) no-repeat center 0;
+  background: #f6efe2 url(case-2-bg.jpg) no-repeat center 0;
 }
 
 #case-3 {
   height: 493px;
   position: relative;
-  background: #49506d url(/bundles/chamberfrontend/images/case-3-bg.jpg) no-repeat center 0;
+  background: #49506d url(case-3-bg.jpg) no-repeat center 0;
   z-index: 10;
   overflow: hidden;
 }
@@ -1810,7 +1816,7 @@ h3.layout-space.dark-blue {
 #case-4 {
   height: 496px;
   position: relative;
-  background: #caeae9 url(/bundles/chamberfrontend/images/case-4-bg.jpg) no-repeat center 0;
+  background: #caeae9 url(case-4-bg.jpg) no-repeat center 0;
   border-top: solid 1px #fbf9f8;
   border-bottom: solid 1px #fbf9f8;
   overflow: hidden;
@@ -1826,7 +1832,7 @@ h3.layout-space.dark-blue {
   position: relative;
 }
 
-/*#case-6 { height: 614px; position: relative; background: #fbe9d3 url(/bundles/chamberfrontend/images/case-6-bg.jpg) no-repeat center 0;  z-index: 20; }*/
+/*#case-6 { height: 614px; position: relative; background: #fbe9d3 url(case-6-bg.jpg) no-repeat center 0;  z-index: 20; }*/
 /*#case-7 { height: 269px; position: relative; }*/
 .case-2-cnt {
   padding: 180px 0 0 110px;
@@ -1955,15 +1961,15 @@ h3.layout-space.dark-blue {
 }
 
 .case-6-cols .box .circle-image .circle-1 {
-  background: url(/bundles/chamberfrontend/images/circle-icon-1.png) no-repeat 0 0;
+  background: url(circle-icon-1.png) no-repeat 0 0;
 }
 
 .case-6-cols .box .circle-image .circle-2 {
-  background: url(/bundles/chamberfrontend/images/circle-icon-2.png) no-repeat 0 0;
+  background: url(circle-icon-2.png) no-repeat 0 0;
 }
 
 .case-6-cols .box .circle-image .circle-3 {
-  background: url(/bundles/chamberfrontend/images/circle-icon-3.png) no-repeat 0 0;
+  background: url(circle-icon-3.png) no-repeat 0 0;
 }
 
 .case-6-cols .box h3 {
@@ -2131,7 +2137,7 @@ a.btn-orange:hover {
   margin-left: -20px;
   width: 40px;
   height: 38px;
-  background: url(/bundles/chamberfrontend/images/strike-1.png) no-repeat 0 0;
+  background: url(strike-1.png) no-repeat 0 0;
   font-size: 0;
   line-height: 0;
   text-indent: -4000px;
@@ -2146,7 +2152,7 @@ a.btn-orange:hover {
   margin-left: -20px;
   width: 38px;
   height: 38px;
-  background: url(/bundles/chamberfrontend/images/strike-2.png) no-repeat 0 0;
+  background: url(strike-2.png) no-repeat 0 0;
   font-size: 0;
   line-height: 0;
   text-indent: -4000px;
@@ -2161,7 +2167,7 @@ a.btn-orange:hover {
   margin-left: -20px;
   width: 38px;
   height: 39px;
-  background: url(/bundles/chamberfrontend/images/strike-3.png) no-repeat 0 0;
+  background: url(strike-3.png) no-repeat 0 0;
   font-size: 0;
   line-height: 0;
   text-indent: -4000px;
@@ -2184,7 +2190,7 @@ a.btn-orange:hover {
   left: 0;
   width: 45px;
   height: 48px;
-  background: url(/bundles/chamberfrontend/images/s-star.png) no-repeat 0 0;
+  background: url(s-star.png) no-repeat 0 0;
   font-size: 0;
   line-height: 0;
   text-indent: -4000px;
@@ -2203,7 +2209,7 @@ a.btn-orange:hover {
   position: absolute;
   top: 250px;
   right: 780px;
-  background: url(/bundles/chamberfrontend/images/network-icon-1.png) no-repeat 0 0;
+  background: url(network-icon-1.png) no-repeat 0 0;
   display: block;
   font-size: 0;
   line-height: 0;
@@ -2219,7 +2225,7 @@ a.btn-orange:hover {
   position: absolute;
   top: 345px;
   right: 550px;
-  background: url(/bundles/chamberfrontend/images/network-icon-2.png) no-repeat 0 0;
+  background: url(network-icon-2.png) no-repeat 0 0;
   display: block;
   font-size: 0;
   line-height: 0;
@@ -2235,7 +2241,7 @@ a.btn-orange:hover {
   position: absolute;
   top: 230px;
   right: 420px;
-  background: url(/bundles/chamberfrontend/images/network-icon-3.png) no-repeat 0 0;
+  background: url(network-icon-3.png) no-repeat 0 0;
   display: block;
   font-size: 0;
   line-height: 0;
@@ -2249,7 +2255,7 @@ a.btn-orange:hover {
 
 .header-mobile {
   height: 52px;
-  background: url(/bundles/chamberfrontend/images/header-mobile.png) right 0 no-repeat #25315f;
+  background: url(header-mobile.png) right 0 no-repeat #25315f;
   position: relative;
 }
 
@@ -2267,13 +2273,13 @@ a.btn-orange:hover {
 
 .logo a {
   display: block;
-  background: url(/bundles/chamberfrontend/images/logo-mobile.png);
+  background: url(logo-mobile.png);
 }
 
 .nav-trigger {
   position: absolute;
   display: block;
-  background: url(/bundles/chamberfrontend/images/nav-trigger.png);
+  background: url(nav-trigger.png);
   width: 23px;
   height: 21px;
   top: 13px;
@@ -2283,7 +2289,7 @@ a.btn-orange:hover {
 .account-btn {
   position: absolute;
   display: block;
-  background: url(/bundles/chamberfrontend/images/account-btn.png);
+  background: url(account-btn.png);
   width: 34px;
   height: 34px;
   top: 9px;
@@ -2335,7 +2341,7 @@ a.btn-orange:hover {
 }
 
 .breadcrumbs span.arrow {
-  background: url(/bundles/chamberfrontend/images/breadcrumbs-arrow.png) center center no-repeat;
+  background: url(breadcrumbs-arrow.png) center center no-repeat;
   width: 9px;
   height: 16px;
   display: inline-block;
@@ -2354,7 +2360,7 @@ a.btn-orange:hover {
 }
 
 .section-pink {
-  background: url(/bundles/chamberfrontend/images/section-pink.jpg) center bottom no-repeat;
+  background: url(section-pink.jpg) center bottom no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -2362,7 +2368,7 @@ a.btn-orange:hover {
 }
 
 .section-blue {
-  background: url(/bundles/chamberfrontend/images/bg-blue.jpg) center bottom no-repeat;
+  background: url(bg-blue.jpg) center bottom no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -2370,7 +2376,7 @@ a.btn-orange:hover {
 }
 
 .section-yellow {
-  background: url(/bundles/chamberfrontend/images/bg-yellow.jpg) center bottom no-repeat;
+  background: url(bg-yellow.jpg) center bottom no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -2436,15 +2442,15 @@ a.btn-orange:hover {
 }
 
 .section-pink .section-arrow {
-  background: url(/bundles/chamberfrontend/images/arrow-pink.png);
+  background: url(arrow-pink.png);
 }
 
 .section-blue .section-arrow {
-  background: url(/bundles/chamberfrontend/images/arrow-blue.png);
+  background: url(arrow-blue.png);
 }
 
 .section-yellow .section-arrow {
-  background: url(/bundles/chamberfrontend/images/arrow-yellow.png);
+  background: url(arrow-yellow.png);
 }
 
 .text-cols {
@@ -2479,18 +2485,18 @@ a.btn-orange:hover {
 }
 
 .section-pink-dark {
-  background: url(/bundles/chamberfrontend/images/section-pink-dark.jpg) right #f5e9df no-repeat;
+  background: url(section-pink-dark.jpg) right #f5e9df no-repeat;
   border-top: solid 1px #e98b80;
 }
 
 .section-blue-dark {
   border-top: solid 1px #90d1ea;
-  background: url(/bundles/chamberfrontend/images/bg-dark-blue.jpg) center center;
+  background: url(bg-dark-blue.jpg) center center;
 }
 
 .section-yellow-dark {
   border-top: solid 1px #fcb559;
-  background: url(/bundles/chamberfrontend/images/dark-yellow.jpg) center center;
+  background: url(dark-yellow.jpg) center center;
 }
 
 .image-wrap {
@@ -2507,7 +2513,7 @@ a.btn-orange:hover {
 }
 
 .section-bubbles .shell {
-  background: url(/bundles/chamberfrontend/images/section-border.jpg) center center repeat-y;
+  background: url(section-border.jpg) center center repeat-y;
   position: relative;
 }
 
@@ -2518,7 +2524,7 @@ a.btn-orange:hover {
 
 .section-bubbles h3 span {
   display: inline-block;
-  background: url(/bundles/chamberfrontend/images/headline-bg.png) center bottom no-repeat white;
+  background: url(headline-bg.png) center bottom no-repeat white;
   line-height: 52px;
   height: 64px;
   z-index: 3;
@@ -2530,7 +2536,7 @@ a.btn-orange:hover {
 }
 
 .section-bubble-last {
-  background: url(/bundles/chamberfrontend/images/headline-bg.png) bottom center no-repeat;
+  background: url(headline-bg.png) bottom center no-repeat;
   padding: 0 0 40px;
 }
 
@@ -2600,17 +2606,17 @@ a.btn-orange:hover {
 }
 
 .bubble-arrow-left {
-  background: url(/bundles/chamberfrontend/images/arrow-left.png);
+  background: url(arrow-left.png);
   left: -30px;
 }
 
 .bubble-arrow-right {
-  background: url(/bundles/chamberfrontend/images/arrow-right.png);
+  background: url(arrow-right.png);
   right: -30px;
 }
 
 .ico-user {
-  background: url(/bundles/chamberfrontend/images/ico-user.png);
+  background: url(ico-user.png);
   width: 47px;
   height: 47px;
   display: block;
@@ -2628,7 +2634,7 @@ a.btn-orange:hover {
 }
 
 .bubble ul li {
-  background: url(/bundles/chamberfrontend/images/bullet-blue.png) 0 14px no-repeat;
+  background: url(bullet-blue.png) 0 14px no-repeat;
   padding: 0 10px;
 }
 
@@ -2751,7 +2757,7 @@ a.btn-orange:hover {
 .tab-nav .btn i {
   display: block;
   position: absolute;
-  background: url(/bundles/chamberfrontend/images/white-arrow.png);
+  background: url(white-arrow.png);
   width: 35px;
   height: 10px;
   bottom: -41px;
@@ -2888,7 +2894,7 @@ a.btn-orange:hover {
 .section-questions .section-arrow {
   display: block;
   position: absolute;
-  background: url(/bundles/chamberfrontend/images/separator.png);
+  background: url(separator.png);
   width: 20px;
   height: 7px;
   top: -1px;
@@ -3296,7 +3302,7 @@ h3 i.heading-circle {
   position: absolute;
   width: 26px;
   height: 28px;
-  background: url(/bundles/chamberfrontend/images/ico-refresh.png);
+  background: url(ico-refresh.png);
   left: -30px;
   top: -9px;
 }
@@ -3406,7 +3412,7 @@ h3 i.heading-circle {
   font-family: 'Open Sans', sans-serif;
   font-size: 20px;
   line-height: 24px;
-  background: url(/bundles/chamberfrontend/images/bullet-star.png) 0 0 no-repeat;
+  background: url(bullet-star.png) 0 0 no-repeat;
   padding: 0 40px;
   margin: 25px 0 0;
 }
@@ -4542,7 +4548,7 @@ h3.layout-space.dark-blue {
     display: block;
     width: 100%;
     height: 20px;
-    background: url(/bundles/chamberfrontend/images/img-overlay.png) center center repeat-x;
+    background: url(img-overlay.png) center center repeat-x;
     position: absolute;
     bottom: 0;
     left: 0;

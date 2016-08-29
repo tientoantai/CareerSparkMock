@@ -20,7 +20,7 @@
     <link rel="shortcut icon" href="https://www.mycareerspark.org/bundles/chamberfrontend/images/favicon.ico">
 
     <!--[if lte IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
     <!--
       <script src="//www.mycareerspark.org/vendor/xdomain/xdomain.min.js"></script>
@@ -108,7 +108,7 @@
             <h1 class="logo notext"><a href="https://www.mycareerspark.org/#/">Career Spark</a></h1>
 
         </header><!-- end ngIf: width <= 768 --><!-- /.header -->
-        <!-- ngIf: viewState.area!=HOME.TOKEN --><!-- ngInclude:  --><div ng-if="viewState.area!=HOME.TOKEN" ng-include="" src="&#39;/bundles/chamberfrontend/js/common/views/header.inner.html&#39;" class="ng-scope"><header class="main-header ng-scope">
+        <!-- ngIf: viewState.area!=HOME.TOKEN --><!-- ngInclude:  --><div ng-if="viewState.area!=HOME.TOKEN" ng-include="" src="&#39;https://www.mycareerspark.org/bundles/chamberfrontend/js/common/views/header.inner.html&#39;" class="ng-scope"><header class="main-header ng-scope">
     <div class="header-top hide-on-mobile">
         <div class="shell ">
             <h1 class="logo notext"><a href="https://www.mycareerspark.org/#/">Career Spark</a></h1>
@@ -128,10 +128,10 @@
                     </li>
                 </ul>
             </nav>
-            <!-- ngInclude:  --><div ng-include="" src="&#39;/bundles/chamberfrontend/js/common/views/login.html&#39;" class="ng-scope"><!-- ngIf: viewState.login -->
+            <!-- ngInclude:  --><div ng-include="" src="&#39;https://www.mycareerspark.org/bundles/chamberfrontend/js/common/views/login.html&#39;" class="ng-scope"><!-- ngIf: viewState.login -->
 <div class="menu-block ng-scope ng-hide" ng-click="toggleMenu()" ng-show="viewState.login"></div>
 </div>
-            <!-- ngInclude:  --><div ng-include="" src="&#39;/bundles/chamberfrontend/js/common/views/fb_logout.html&#39;" class="ng-scope"><!-- ngIf: viewState.fb_logout -->
+            <!-- ngInclude:  --><div ng-include="" src="&#39;https://www.mycareerspark.org/bundles/chamberfrontend/js/common/views/fb_logout.html&#39;" class="ng-scope"><!-- ngIf: viewState.fb_logout -->
 </div>
         </div>
     </div>
@@ -272,7 +272,7 @@
         </div>
         <i class="strike-3"></i>
       </section></div></div><!-- ng-class="{layout-blue: viewState.area==EXPLORE.TOKEN, layout-yellow: viewState.area==TRACK.TOKEN, homepage: viewState.area=='home'}" -->
-        <!-- ngInclude: '/bundles/chamberfrontend/js/common/views/footer.inner.html' --><div ng-include="&#39;/bundles/chamberfrontend/js/common/views/footer.inner.html&#39;" class="ng-scope"><div id="footer" class="hide-on-mobile ng-scope">
+        <!-- ngInclude: '/bundles/chamberfrontend/js/common/views/footer.inner.html' --><div ng-include="&#39;https://www.mycareerspark.org/bundles/chamberfrontend/js/common/views/footer.inner.html&#39;" class="ng-scope"><div id="footer" class="hide-on-mobile ng-scope">
   <div id="paging">
     <section class="footer--left">
       <ul>
@@ -294,7 +294,7 @@
 </div>
 </div>
     </div>
-    <!-- ngIf: width <= 768 --><!-- ngInclude: '/bundles/chamberfrontend/js/common/views/nav.mobile.html' --><div ng-if="width &lt;= 768" ng-include="&#39;/bundles/chamberfrontend/js/common/views/nav.mobile.html&#39;" class="ng-scope"><nav class="navigation ng-scope">
+    <!-- ngIf: width <= 768 --><!-- ngInclude: '/bundles/chamberfrontend/js/common/views/nav.mobile.html' --><div ng-if="width &lt;= 768" ng-include="&#39;https://www.mycareerspark.org/bundles/chamberfrontend/js/common/views/nav.mobile.html&#39;" class="ng-scope"><nav class="navigation ng-scope">
     <ul>
 
         <li ng-class=""><a class="link-home" href="https://www.mycareerspark.org/" ng-click="triggerNav()" analytics-on="click" analytics-category="nav-mobile" analytics-event="click" analytics-label="home">Home</a></li>
@@ -368,7 +368,8 @@ Creation Date: 03/20/2014
     var axel = Math.random() + "";
     var a = axel * 10000000000000;
     $('body').append('<iframe src="https://621119.fls.doubleclick.net/activityi;src=621119;type=careersp;cat=caspark1;ord=' + a + '?" width="1" height="1" frameborder="0" style="display:none"></iframe>');
-</script><iframe src="./Career Spark_files/activityi.html" width="1" height="1" frameborder="0" style="display:none"></iframe>
+</script>
+<iframe src="./Career Spark_files/activityi.html" width="1" height="1" frameborder="0" style="display:none"></iframe>
 <noscript>
     &lt;iframe src="https://621119.fls.doubleclick.net/activityi;src=621119;type=careersp;cat=caspark1;ord=1?" width="1" height="1" frameborder="0" style="display:none"&gt;&lt;/iframe&gt;
 </noscript>
@@ -377,7 +378,7 @@ Creation Date: 03/20/2014
 <script type="text/javascript">
     // once directives and services are loaded, bootstrap app
     $('html').attr('ng-controller', 'MainCtrl as main'); // done in html for IE8
-    angular.bootstrap(document, ['career-spark']); // done in html for IE8
+//    angular.bootstrap(document, ['career-spark']); // done in html for IE8
     $('video,audio').mediaelementplayer();
 
     // check for logged in/authenticated user
