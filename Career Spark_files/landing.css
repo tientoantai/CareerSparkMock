@@ -1,0 +1,126 @@
+#mobile_landing {
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  bottom: 0px;
+  margin-top: -52px;
+  z-index: 300;
+  overflow-y: scroll;
+  background-image: url(/bundles/chamberfrontend/images/blue-background.png);
+  background-size: 100%;
+  background-position: 0px 52px;
+  background-repeat: no-repeat;
+  background-color: #002f6e;
+  /*label.radio {
+    display: inline;
+    padding-right: 6px;
+  }*/
+  /*input[type="radio"] {
+    display: inline;
+    margin: 0px 6px 2px 0px;
+    color: #fff;
+  }*/
+}
+#mobile_landing .landing-logos {
+  margin: 0px auto;
+  padding: 70px 0px 15px 0px;
+  display: block;
+  text-align: center;
+}
+#mobile_landing img.logo-re,
+#mobile_landing img.logo-cs {
+  margin: 0px 5px;
+  display: inline;
+  width: 120px;
+}
+#mobile_landing .mobile_landing_content {
+  width: 240px;
+  margin: 0px auto 0px auto;
+}
+#mobile_landing .description {
+  float: left;
+  color: #fff;
+  font-family: "Muli", sans-serif;
+  font-size: 9pt;
+  font-weight: 400;
+  line-height: 12pt;
+  padding: 0px 11px 0px 11px;
+  text-align: center;
+  width: 100%;
+}
+#mobile_landing form {
+  /*float: right;*/
+  width: 100%;
+}
+#mobile_landing label {
+  display: block;
+}
+#mobile_landing input[type="text"],
+#mobile_landing select {
+  width: 100%;
+  height: 42px;
+  margin-bottom: 12px;
+  border-color: #000;
+}
+#mobile_landing .btn-ignite {
+  background-color: #f5971e;
+  border: 1px solid #000;
+  color: #fff;
+  width: 100%;
+  height: 40px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 200;
+  margin-bottom: 40px;
+  border-radius: 8px;
+}
+#mobile_landing .mobile_landing_footer {
+  display: none;
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  height: 40px;
+  background-color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  z-index: 2000;
+  padding-top: 4px;
+}
+#mobile_landing .mobile_landing_footer img {
+  width: 30%;
+  padding: 0px 6px;
+}
+
+@media screen and (min-width: 700px) {
+  #mobile_landing {
+    margin-top: -110px;
+    background-position: 0px 110px;
+  }
+  #mobile_landing .landing-logos {
+    /*width: 480px;*/
+    padding-top: 113px;
+  }
+  #mobile_landing img.logo-re,
+  #mobile_landing img.logo-cs {
+    margin: 80px 40px 30px 40px;
+    display: inline;
+    width: 240px;
+  }
+  #mobile_landing .mobile_landing_content {
+    width: 420px;
+    padding-top: 100px;
+    padding-bottom: 20px;
+  }
+  #mobile_landing .description {
+    font-size: 16pt;
+    line-height: 20pt;
+    /*width: 480px;*/
+  }
+  #mobile_landing .mobile_landing_footer {
+    display: block;
+  }
+  #mobile_landing .mobile_landing_footer img {
+    height: 28px;
+    width: auto;
+    padding: 0px 6px;
+  }
+}
