@@ -1497,7 +1497,7 @@ h3.layout-space.dark-blue {
   font-size: 0;
   line-height: 0;
   text-indent: -4000px;
-  background: url(/bundles/chamberfrontend/images/socials.png);
+  background: url(socials.png);
 }
 
 .social ul li a.t-icon {
@@ -1954,15 +1954,15 @@ h3.layout-space.dark-blue {
 }
 
 .case-6-cols .box .circle-image .circle-1 {
-  background: url(/bundles/chamberfrontend/images/circle-icon-1.png) no-repeat 0 0;
+  background: url('circle-icon-1.png') no-repeat 0 0;
 }
 
 .case-6-cols .box .circle-image .circle-2 {
-  background: url(/bundles/chamberfrontend/images/circle-icon-2.png) no-repeat 0 0;
+  background: url('circle-icon-2.png') no-repeat 0 0;
 }
 
 .case-6-cols .box .circle-image .circle-3 {
-  background: url(/bundles/chamberfrontend/images/circle-icon-3.png) no-repeat 0 0;
+  background: url('circle-icon-3.png') no-repeat 0 0;
 }
 
 .case-6-cols .box h3 {
