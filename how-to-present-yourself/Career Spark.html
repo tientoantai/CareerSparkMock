@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- saved from url=(0064)https://www.mycareerspark.org/#/explore/how-to-get-the-interview -->
+<!-- saved from url=(0060)https://www.mycareerspark.org/#/prep/how-to-present-yourself -->
 <html class="js no-touch csstransforms3d csstransitions svg inlinesvg svgclippaths no-ie8compat csstransformspreserve3d checked ng-scope" xmlns:ng="http://angularjs.org" id="ng-app" lang="en" ng-controller="MainCtrl as main"><!--<![endif]--><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style type="text/css">@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide{display:none !important;}ng\:form{display:block;}.ng-animate-block-transitions{transition:0s all!important;-webkit-transition:0s all!important;}</style>
     
     <title ng-bind="title" class="ng-binding">Career Spark</title>
@@ -117,10 +117,10 @@
                     <li class="link-green" ng-class="{active: viewState.hover==&#39;discover&#39;}" ng-mouseenter="viewState.hover=&#39;discover&#39;" ng-mouseleave="viewState.hover=viewState.area">
                         <i class="ico-arrow"></i><a analytics-on="click" analytics-category="navigation" analytics-event="click" analytics-label="discover" ng-click="gotoResume()"><span>Discover</span></a>
                     </li>
-                    <li class="link-blue active" ng-class="{active: viewState.hover==EXPLORE.TOKEN}" ng-mouseenter="viewState.hover=EXPLORE.TOKEN" ng-mouseleave="viewState.hover=viewState.area">
+                    <li class="link-blue" ng-class="{active: viewState.hover==EXPLORE.TOKEN}" ng-mouseenter="viewState.hover=EXPLORE.TOKEN" ng-mouseleave="viewState.hover=viewState.area">
                         <i class="ico-arrow"></i><a analytics-on="click" analytics-category="navigation" analytics-event="click" analytics-label="explore" href="https://www.mycareerspark.org/#/explore/what-to-look-for"><span>Explore</span></a>
                     </li>
-                    <li class="link-red" ng-class="{active: viewState.hover==PREP.TOKEN}" ng-mouseenter="viewState.hover=PREP.TOKEN" ng-mouseleave="viewState.hover=viewState.area">
+                    <li class="link-red active" ng-class="{active: viewState.hover==PREP.TOKEN}" ng-mouseenter="viewState.hover=PREP.TOKEN" ng-mouseleave="viewState.hover=viewState.area">
                         <i class="ico-arrow"></i><a analytics-on="click" analytics-category="navigation" analytics-event="click" analytics-label="prep" href="https://www.mycareerspark.org/#/prep/how-to-present-yourself"><span>Prep</span></a>
                     </li>
                     <li class="link-yellow" ng-class="{active: viewState.hover==TRACK.TOKEN}" ng-mouseenter="viewState.hover=TRACK.TOKEN" ng-mouseleave="viewState.hover=viewState.area">
@@ -145,21 +145,21 @@
         </div>
     </div>
 
-    <div class="sub-menu" ng-show="viewState.hover==EXPLORE.TOKEN" ng-mouseenter="viewState.hover=EXPLORE.TOKEN" ng-mouseleave="viewState.hover=viewState.area">
+    <div class="sub-menu ng-hide" ng-show="viewState.hover==EXPLORE.TOKEN" ng-mouseenter="viewState.hover=EXPLORE.TOKEN" ng-mouseleave="viewState.hover=viewState.area">
         <div class="shell">
             <ul class="clearfix">
                 <li ng-class="{active: viewState.page==EXPLORE.PAGES[0]}"><a href="https://www.mycareerspark.org/#/explore/what-to-look-for" analytics-on="click" analytics-category="navigation" analytics-event="click" analytics-label="what-to-look-for">What to Look For</a></li>
                 <li ng-class="{active: viewState.page==EXPLORE.PAGES[1]}"><a href="https://www.mycareerspark.org/#/explore/where-to-look" analytics-on="click" analytics-category="navigation" analytics-event="click" analytics-label="where-to-look">Where to Look</a></li>
                 <li ng-class="{active: viewState.page==EXPLORE.PAGES[2]}"><a href="https://www.mycareerspark.org/#/explore/use-your-network" analytics-on="click" analytics-category="navigation" analytics-event="click" analytics-label="use-your-network">Use Your Network</a></li>
-                <li ng-class="{active: viewState.page==EXPLORE.PAGES[3]}" class="active"><a href="https://www.mycareerspark.org/#/explore/how-to-get-the-interview">How to Get the Interview</a></li>
+                <li ng-class="{active: viewState.page==EXPLORE.PAGES[3]}"><a href="https://www.mycareerspark.org/#/explore/how-to-get-the-interview">How to Get the Interview</a></li>
             </ul>
         </div>
     </div>
 
-    <div class="sub-menu ng-hide" ng-show="viewState.hover==PREP.TOKEN" ng-mouseenter="viewState.hover=PREP.TOKEN" ng-mouseleave="viewState.hover=viewState.area">
+    <div class="sub-menu" ng-show="viewState.hover==PREP.TOKEN" ng-mouseenter="viewState.hover=PREP.TOKEN" ng-mouseleave="viewState.hover=viewState.area">
         <div class="shell">
             <ul class="clearfix">
-                <li ng-class="{active: viewState.page==PREP.PAGES[0]}"><a analytics-on="click" analytics-category="navigation" analytics-event="click" analytics-label="discover" href="https://www.mycareerspark.org/#/prep/how-to-present-yourself">How
+                <li ng-class="{active: viewState.page==PREP.PAGES[0]}" class="active"><a analytics-on="click" analytics-category="navigation" analytics-event="click" analytics-label="discover" href="https://www.mycareerspark.org/#/prep/how-to-present-yourself">How
                     to Present Yourself</a></li>
                 <li ng-class="{active: viewState.page==PREP.PAGES[1]}"><a href="https://www.mycareerspark.org/#/prep/preparing-for-the-interview" analytics-on="click" analytics-category="navigation" analytics-event="click" analytics-label="preparing-for-the-interview">Preparing for the Interview</a></li>
                 <li ng-class="{active: viewState.page==PREP.PAGES[2]}"><a href="https://www.mycareerspark.org/#/prep/interview-timeline">Interview Timeline</a></li>
@@ -178,96 +178,338 @@
 </header>
 </div><!-- end ngIf: viewState.area!=HOME.TOKEN -->
         <!-- ngIf: viewState.area==HOME.TOKEN -->
-        <!-- ngView:  --><div ng-view="" id="wrapper" class="explore"><!-- ngInclude:  --><div id="content-section" ng-include="" src="getContentUrl(viewState)" autoscroll="true" class="ng-scope">			<section class="sectionx section-top section-blue layout-2 ng-scope">
+        <!-- ngView:  --><div ng-view="" id="wrapper" class="prep"><!-- ngInclude:  --><div id="content-section" ng-include="" src="getContentUrl(viewState)" autoscroll="true" class="ng-scope">			<section class="sectionx section-top section-pink layout-2 ng-scope">
 				<div class="shell">
 					<div class="text-cols cols clearfix">
-						<h2>This is it. It’s go time.</h2>
+						<h2>Make A Good First Impression</h2>
 						<ul class="clearfix">
-							<li><span>T</span>his is where the rubber meets the proverbial road. This is where all of your searching, networking and job-post-applying come together to get your foot in the door and land you that interview.</li>
-							<li><div class="wrap">We have a few guidelines to follow that will help you go a long way in your interview search. Follow these tips and you’ll find yourself in an interview and eventually in the job you wanted.</div></li>
+							<li><span>T</span>he clichés are true. First impressions matter. And it takes only 3–5 seconds for people to form theirs about you. Your apparel, demeanor and mannerisms are all part of your image. And your image has the power to influence whether a potential employer </li>
+							<li class="last"><div class="wrap">  will consider you for hire. It’s important to <br class="hide-on-mobile"> dress professionally for any job interview, regardless of the work environment. The spectrum of appropriate attire ranges from formal to casual, depending on the position you’re applying for. </div></li>
 						</ul>
-						<h4 class="text-center">Get ready. Get set. Go to work.</h4>
+						<h4 class="text-center">What are you waiting for? Let’s learn about snappy dressing.</h4>
 					</div>
 				</div>
 				<i class="section-arrow"></i>
 			</section><!-- /.section-pink -->
 
-			<section class="sectionx section-dictionary ng-scope">
-				<div class="section-image-wrap section-image-wrap-left col-content-472 image-wrap"><img src="./Career Spark_files/HowToGetTheInterviewImage1.jpg" alt=""></div>
+			<section class="sectionx section-tabs ng-scope">
+				<div class="image-wrap section-image-wrap-right section-image-wrap"><img src="./Career Spark_files/FormalInterview.jpg" alt=""></div>
 				<div class="shell">
 					<div class="cols clearfix">
 						<div class="col col1-2">
+							<div class="col-content">
+								<h3>Formal Interview</h3>
+								<p>As buttoned up as it gets. Formal business attire is appropriate to wear in a professional office environment. And no matter your gender, this involves a dark suit. Gray, navy or black will do the trick.  </p>
+								<p>Examples of places for formal wear: law firm, accounting office, or hotel industry.  </p>
+								<div class="tab-nav">
+									<h4>What to wear for:</h4>
+									<ul class="clearfix">
+										<li><a ng-click="viewState.gender=FEMALE" ng-class="{active: viewState.gender==FEMALE}" class="btn btn-white" analytics-on="click" analytics-category="prep_present_yourself" analytics-event="women" analytics-label="interview"><i class="ico-arrow"></i>Women</a></li>
+										<li><a ng-click="viewState.gender=MALE" ng-class="{active: viewState.gender==MALE}" class="btn btn-white active" analytics-on="click" analytics-category="prep_present_yourself" analytics-event="men" analytics-label="interview"><i class="ico-arrow"></i>Men</a></li>
+									</ul>
+								</div>
+							</div>
 						</div>
+					</div>
+				</div>
+			</section><!-- /.section-tabs -->
+
+			<section class="sectionx section-tab-entries ng-scope">
+				<div class="shell">
+					<ul>
+						<li class="clearfix ng-hide formal-female" ng-show="viewState.gender==FEMALE">
+							<div class="item">
+								<div class="item-image">
+									<img src="./Career Spark_files/pr-1.png" alt="">
+								</div>
+								<span>Dark Suit</span>
+							</div>
+							<div class="item">
+								<div class="item-image">
+									<img src="./Career Spark_files/pr-2.png" alt="">
+								</div>
+								<span>Light-colored Blouse</span>
+							</div>
+							<div class="item">
+								<div class="item-image">
+									<img src="./Career Spark_files/pr-3.png" alt="">
+								</div>
+								<span>Mid-heeled, Closed-toe Pump</span>
+							</div>
+							<div class="item">
+								<div class="item-image">
+									<img src="./Career Spark_files/pr-4.png" alt="">
+								</div>
+								<span>Portfolio or Briefcase</span>
+							</div>
+						</li>
+						<li class="clearfix g" ng-show="viewState.gender==MALE">
+							<div class="item">
+								<div class="item-image">
+									<img src="./Career Spark_files/pr-5.png" alt="">
+								</div>
+								<span>Long sleve shirt</span>
+							</div>
+							<div class="item">
+								<div class="item-image">
+									<img src="./Career Spark_files/pr-6.png" alt="">
+								</div>
+								<span>Conservative tie</span>
+							</div>
+							<div class="item">
+								<div class="item-image">
+									<img src="./Career Spark_files/pr-7.png" alt="">
+								</div>
+								<span>Professional shoes</span>
+							</div>
+							<div class="item">
+								<div class="item-image">
+									<img src="./Career Spark_files/pr-8.png" alt="">
+								</div>
+								<span>Portfolio or Briefcase</span>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</section><!-- /.section-tabs -->
+
+			<section class="sectionx section-tabs ng-scope">
+				<div class="section-image-wrap section-image-wrap-left image-wrap"><img src="./Career Spark_files/SemiFormalInterview.jpg" alt=""></div>
+				<div class="shell">
+					<div class="cols clearfix">
 						<div class="col col1-2 col-last">
-							<div class="col-content col-content-472">
-								<div class="center-wrap">
-									<div class="center-inner">
-										<h3 class="no-space">The Four Pieces of the Interview</h3>
-										<h3 class="layout-lb"><i class="heading-circle">1</i> Resume Radiance </h3>
-										<p>Make your resume stand out. Tailor your skills and experience to speak directly to the needs of the position. We’re not saying embellish the truth. Just customize your resume to be relevant to the specific positions you’re applying for, instead of blanketing all positions with one generic resume. </p>
-									</div>
+							<div class="col-content">
+								<div class="wrap">
+									<h3>Semi-Formal Interview</h3>
+									<p>Not formal, but not your favorite jeans either. This ensemble is more relaxed than a formal suit, but still neat, professional and pulled together. </p>
+									<p>Examples of places for semi-formal wear: real estate, pharmaceutical rep, or restaurant industry. </p>
+								</div>
+								<div class="tab-nav">
+									<h4>What to wear for:</h4>
+									<ul class="clearfix">
+										<li><a ng-click="viewState.gender=FEMALE" ng-class="{active: viewState.gender==FEMALE}" class="btn btn-white" analytics-category="prep_present_yourself" analytics-on="click" analytics-label="semi_formal_interview" analytics-event="women"><i class="ico-arrow"></i>Women</a></li>
+										<li><a ng-click="viewState.gender=MALE" ng-class="{active: viewState.gender==MALE}" class="btn btn-white active" analytics-category="prep_present_yourself" analytics-on="click" analytics-labek="semi_formal_interview" analytics-event="men"><i class="ico-arrow"></i>Men</a></li>
+									</ul>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-			</section><!-- /.section-dictionary -->
+			</section><!-- /.section-tabs -->
 
-			<section class="sectionx section-dictionary col-content-580 ng-scope">
+			<section class="sectionx section-tab-entries ng-scope">
+				<div class="shell">
+					<ul>
+						<li class="clearfix ng-hide" ng-show="viewState.gender==FEMALE">
+							<div class="item">
+								<div class="item-image">
+									<img src="./Career Spark_files/pr-9.png" alt="">
+								</div>
+								<span>Flattering Dress with jacket</span>
+							</div>
+							<div class="item">
+								<div class="item-image">
+									<img src="./Career Spark_files/pr-10.png" alt="">
+								</div>
+								<span>Tasteful accessories</span>
+							</div>
+							<div class="item">
+								<div class="item-image">
+									<img src="./Career Spark_files/pr-11.png" alt="">
+								</div>
+								<span>Closed-toe, low heels or boots</span>
+							</div>
+							<div class="item">
+								<div class="item-image">
+									<img src="./Career Spark_files/pr-12.png" alt="">
+								</div>
+								<span>Messenger bag or purse</span>
+							</div>
+						</li>
+						<li class="clearfix" ng-show="viewState.gender==MALE">
+							<div class="item">
+								<div class="item-image">
+									<img src="./Career Spark_files/pr-13.png" alt="">
+								</div>
+								<span>Patterned shirt, professional tie</span>
+							</div>
+							<div class="item">
+								<div class="item-image">
+									<img src="./Career Spark_files/pr-14.png" alt="">
+								</div>
+								<span>Slacks or khakis </span>
+							</div>
+							<div class="item">
+								<div class="item-image">
+									<img src="./Career Spark_files/pr-15.png" alt="">
+								</div>
+								<span>paired with a jacket or sport coat</span>
+							</div>
+							<div class="item">
+								<div class="item-image">
+									<img src="./Career Spark_files/pr-16.png" alt="">
+								</div>
+								<span>Messenger bag</span>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</section><!-- /.section-tabs -->
+
+			<section class="sectionx section-tabs ng-scope">
+				<div class="section-image-wrap section-image-wrap-right image-wrap"><img class="left-translated" src="./Career Spark_files/CasualInterview.jpg" alt=""></div>
 				<div class="shell">
 					<div class="cols clearfix">
 						<div class="col col1-2">
-							<div class="col-content no-space-top col-content-580">
-								<div class="center-wrap">
-									<div class="center-inner">
-										<h3 class="layout-lb"><i class="heading-circle">2</i> Recommendation Station</h3>
-										<p>A trusted recommendation is key! Having someone vouch for you gives employers confidence and takes away their fear of the unknown. Research to see if you know anyone who works or worked at the company. It could be a friend of a friend, your hairdresser’s cousin, anyone you’ve met. If that person would be so kind as to submit your resume, most times it sends your resume flying past red tape and directly to internal HR or hiring managers, along with that oh, so important personal recommendation. </p>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col col1-2 col-last">
-							<div class="col-content col-content-580">
-								<div class="center-wrap">
-									<div class="center-inner">
-										<h3 class="layout-lb"><i class="heading-circle">3</i> Social Selection</h3>
-										<p>You’re marketing yourself online, so be sure to clean up your social media scene. Be aware of the image you create with Facebook, Twitter, Pinterest, LinkedIn, etc. Ensure that your online platforms are current, appropriate and intriguing. Lose the complaints, negative opinions and overly partisan posts. They could hinder your shot at an invitation. And don’t forget a professional-looking photo – not a selfie taken in your mirror or car! <i class="tipper ng-isolate-scope" tool-tip="If you have a LinkedIn account, it’s a good idea to ask past colleagues to write you a glowing recommendation on your page.">tip</i>
-											&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </p>
-									</div>
+							<div class="col-content">
+								<h3>Casual Interview</h3>
+								<p>Be casual, but keep it conservative. It’s a fine line because while you want to dress casually, you also want to dress smart!</p>
+								<p>Examples of places for casual wear: retail, advertising, or IT.</p>
+								<div class="tab-nav">
+									<h4>What to wear for:</h4>
+									<ul class="clearfix">
+										<li><a ng-click="viewState.gender=FEMALE" ng-class="{active: viewState.gender==FEMALE}" class="btn btn-white"><i class="ico-arrow" analytics-on="click" analytics-category="prep_present_yourself" analytics-event="women" analytics-label="casual_interview"></i>Women</a></li>
+										<li><a ng-click="viewState.gender=MALE" ng-class="{active: viewState.gender==MALE}" class="btn btn-white active" analytics-on="click" analytics-category="prep_present_yourself" analytics-event="men" analytics-label="casual_interview"><i class="ico-arrow"></i>Men</a></li>
+									</ul>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-			</section><!-- /.section-dictionary -->
+			</section><!-- /.section-tabs -->
 
-			<section class="sectionx section-dictionary ng-scope">
+			<section class="sectionx section-tab-entries ng-scope">
 				<div class="shell">
-					<div class="cols clearfix">
-						<div class="col col1-2">
-							<div class="col-content no-space-top col-content-472">
-								<div class="center-wrap">
-									<div class="center-inner">
-										<h3 class="layout-lb"><i class="heading-circle">4</i> Face-to-Face Factor</h3>
-										<p>Seek out face time. Don’t be just another virtual applicant. Consider submitting your application in person. While there, inquire about possible job shadowing opportunities, tours of the company, or meet-and-greets. An in-person visit to the company shows your interest in the position, gives the employer a memorable impression to put with all your glowing qualifications on paper, and makes YOU stand out in a stack of resumes. </p>
-									</div>
+					<ul>
+						<li class="clearfix ng-hide" ng-show="viewState.gender==FEMALE">
+							<div class="item">
+								<div class="item-image">
+									<img src="./Career Spark_files/pr-19.png" alt="">
+								</div>
+								<span>Stylish blouse</span>
+							</div>
+							<div class="item">
+								<div class="item-image">
+									<img src="./Career Spark_files/pr-20.png" alt="">
+								</div>
+								<span>Slacks or very dark, tailored pants</span>
+							</div>
+							<div class="item">
+								<div class="item-image">
+									<img src="./Career Spark_files/pr-21.png" alt="">
+								</div>
+								<span>Matching accessories</span>
+							</div>
+							<div class="item">
+								<div class="item-image">
+									<img src="./Career Spark_files/pr-22.png" alt="">
+								</div>
+								<span>Mid-heeled wedge or boot</span>
+							</div>
+						</li>
+						<li class="clearfix" ng-show="viewState.gender==MALE">
+							<div class="item">
+								<div class="item-image">
+									<img src="./Career Spark_files/pr-23.png" alt="">
+								</div>
+								<span>Plaid or oxford shirt </span>
+							</div>
+							<div class="item">
+								<div class="item-image">
+									<img src="./Career Spark_files/pr-24.png" alt="">
+								</div>
+								<span>Khakis or dark, well-fitting pants</span>
+							</div>
+							<div class="item">
+								<div class="item-image">
+									<img src="./Career Spark_files/pr-25.png" alt="">
+								</div>
+								<span>sweater or sweater vest</span>
+							</div>
+							<div class="item">
+								<div class="item-image">
+									<img src="./Career Spark_files/pr-26.png" alt="">
+								</div>
+								<span>Leather boots</span>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</section><!-- /.section-tabs -->
+
+			<section class="sectionx section-dos ng-scope">
+				<div class="shell">
+					<h3 class="text-center">General Interview Wardrobe </h3>
+
+					<div class="show-on-mobile dos-mobile show-on-mobile-block">
+						<h2>Do</h2>
+						<p>Select apparel, jewelry, hairstyle, etc., that do not detract from your professional image. You want the interviewer’s attention on what you say and your qualifications, not your scent. </p>
+						<p>Cover visible tattoos to avoid distraction.</p>
+						<p>Wear clean and neatly pressed apparel. </p>
+						<p>Keep your look simple and successful until you become accustomed to the environment and learn about the company’s dress code.</p>
+						<p>Turn off your cellphone and keep it out of sight. Candy Crush Saga will have to wait!</p>
+						<p>Keep makeup natural and nail polish neutral. You want the focus on YOU, not your nail art. </p>
+						<p>Research how employees typically dress in your chosen industry.</p>
+						<h2>Don’ts</h2>
+						<p>Wear strong perfume. Fragrance can cause an allergic reaction or distract the interviewer. To avoid a fragrance fiasco, skip the perfume. </p>
+						<p>Wear transparent blouses, tight-fitting clothing, short skirts or low necklines.  </p>
+						<p>Wear super-high heels or open-toed shoes. Stick to flats or low pumps in neutral colors, and save the stilettos for date night! </p>
+						<p>Leave in facial or body piercings. Single earrings are just fine.
+						</p>
+						<p>Wear flashy or dangly earrings. Accessories should express your personality and accentuate your best features. But keep it simple!</p>
+					</div>
+
+					<div class="cols hide-on-mobile clearfix">
+						<div class="col1-2 col">
+							<div class="col-content">
+								<div class="btn-wrap" ng-hide="wardrobe==&#39;dont-content&#39;">
+									<h2>Do’s</h2>
+									<a ng-click="wardrobe=(!wardrobe) ? &#39;do-content&#39; : null" class="btn btn-view btn-red ng-binding">View</a>
+								</div>
+								<div id="dont-content" class="do-content ng-hide" ng-show="wardrobe==&#39;dont-content&#39;">
+									<p>Wear strong perfume. Fragrance can cause an allergic reaction or distract the interviewer. To avoid a fragrance fiasco, skip the perfume. </p>
+									<p>Wear transparent blouses, tight-fitting clothing, short skirts or low necklines.  </p>
+									<p>Wear super-high heels or open-toed shoes. Stick to flats or low pumps in neutral colors, and save the stilettos for date night! </p>
+									<p>Leave in facial or body piercings. Single earrings are just fine.
+									</p>
+									<p>Wear flashy or dangly earrings. Accessories should express your personality and accentuate your best features. But keep it simple!</p>
+								</div>
+							</div>
+						</div>
+						<div class="col1-2 col col-last">
+							<div class="col-content col-border" ng-class="{&#39;col-border&#39;: !wardrobe}">
+								<div class="btn-wrap" ng-hide="wardrobe==&#39;do-content&#39;">
+									<h2>Don’ts</h2>
+									<a ng-click="wardrobe=(!wardrobe) ? &#39;dont-content&#39; : null" class="btn btn-view btn-red ng-binding">View</a>
+								</div>
+								<div id="do-content" class="do-content ng-hide" ng-show="wardrobe==&#39;do-content&#39;">
+									<p>Select apparel, fragrances, jewelry, hairstyle, etc., that do not detract from your professional image. You want the interviewer’s attention on what you say and your qualifications, not your new bangs.</p>
+									<p>Cover visible tattoos to avoid distraction.</p>
+									<p>Wear clean and neatly pressed apparel. </p>
+									<p>Keep your look simple and successful until you become accustomed to the environment and learn about the company’s dress code.</p>
+									<p>Turn off your cellphone and keep it out of sight. Candy Crush Saga will have to wait!</p>
+									<p>Keep makeup natural and nail polish clear. You want the focus on YOU, not your new gel manicure. </p>
+									<p>Research how employees typically dress in your chosen industry.</p>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-				<div class="section-image-wrap section-image-wrap-right image-wrap"><img class="left-translated" src="./Career Spark_files/HowToGetTheInterviewImage2.jpg" alt=""></div>
-			</section><!-- /.section-dictionary -->
+			</section>
 
-			<section class="sectionx section-bottom section-blue-dark ng-scope">
+			<section class="sectionx section-bottom section-pink-dark ng-scope">
 				<div class="shell">
 					<div class="content-wrap text-center">
-						<h4>Next, find out how to prep for the interview.</h4>
-						<a href="https://www.mycareerspark.org/#/prep/how-to-present-yourself" class="btn btn-blue btn-big"><span>Go To</span> Next Page</a>
+						<h4>Next, find out how to be best prepared for an interview.</h4>
+						<a href="https://www.mycareerspark.org/#/prep/preparing-for-the-interview" class="btn btn-red btn-big"><span>Go To</span> Next Page</a>
 					</div>
 				</div>
 				<i class="strike-3"></i>
-			</section></div></div><!-- ng-class="{layout-blue: viewState.area==EXPLORE.TOKEN, layout-yellow: viewState.area==TRACK.TOKEN, homepage: viewState.area=='home'}" -->
+			</section>
+<!--
+			<script src="vendor/homepage/functions.js" type="text/javascript"></script>
+-->
+</div></div><!-- ng-class="{layout-blue: viewState.area==EXPLORE.TOKEN, layout-yellow: viewState.area==TRACK.TOKEN, homepage: viewState.area=='home'}" -->
         <!-- ngInclude: '/bundles/chamberfrontend/js/common/views/footer.inner.html' --><div ng-include="&#39;/bundles/chamberfrontend/js/common/views/footer.inner.html&#39;" class="ng-scope"><div id="footer" class="hide-on-mobile ng-scope">
   <div id="paging">
     <section class="footer--left">
@@ -303,13 +545,13 @@
 
                 <li ng-class="{active: viewState.page==EXPLORE.PAGES[1]}"><a href="https://www.mycareerspark.org/#/explore/where-to-look" ng-click="triggerNav()" analytics-on="click" analytics-category="nav-mobile" analytics-event="click" analytics-label="where-to-look">Where to Look</a></li>
                 <li ng-class="{active: viewState.page==EXPLORE.PAGES[2]}"><a href="https://www.mycareerspark.org/#/explore/use-your-network" ng-click="triggerNav()" analytics-on="click" analytics-category="nav-mobile" analytics-event="click" analytics-label="use-your-network">Use Your Network</a></li>
-                <li ng-class="{active: viewState.page==EXPLORE.PAGES[3]}" class="active"><a href="https://www.mycareerspark.org/#/explore/how-to-get-the-interview" ng-click="triggerNav()" analytics-on="click" analytics-category="nav-mobile" analytics-event="click" analytics-label="how-to-get-the-interview">How to Get the Interview</a></li>
+                <li ng-class="{active: viewState.page==EXPLORE.PAGES[3]}"><a href="https://www.mycareerspark.org/#/explore/how-to-get-the-interview" ng-click="triggerNav()" analytics-on="click" analytics-category="nav-mobile" analytics-event="click" analytics-label="how-to-get-the-interview">How to Get the Interview</a></li>
             </ul>
         </li>
         <li class="menu-orange">
             <span>Prep</span>
             <ul>
-                <li ng-class="{active: viewState.page==PREP.PAGES[0]}"><a href="https://www.mycareerspark.org/#/prep/how-to-present-yourself" ng-click="triggerNav()" analytics-on="click" analytics-category="nav-mobile" analytics-event="click" analytics-label="how-to-present-yourself">How to Present Yourself</a></li>
+                <li ng-class="{active: viewState.page==PREP.PAGES[0]}" class="active"><a href="https://www.mycareerspark.org/#/prep/how-to-present-yourself" ng-click="triggerNav()" analytics-on="click" analytics-category="nav-mobile" analytics-event="click" analytics-label="how-to-present-yourself">How to Present Yourself</a></li>
                 <li ng-class="{active: viewState.page==PREP.PAGES[1]}"><a href="https://www.mycareerspark.org/#/prep/preparing-for-the-interview" ng-click="triggerNav()" analytics-on="click" analytics-category="nav-mobile" analytics-event="click" analytics-label="preparing-for-the-interview">Preparing for the Interview</a></li>
                 <li ng-class="{active: viewState.page==PREP.PAGES[2]}"><a href="https://www.mycareerspark.org/#/prep/interview-timeline" ng-click="triggerNav()" analytics-on="click" analytics-category="nav-mobile" analytics-event="click" analytics-label="interview-timeline">Interview Timeline</a></li>
             </ul>
@@ -378,6 +620,10 @@ Creation Date: 03/20/2014
 
     // check for logged in/authenticated user
     </script>
+
+<script>
+
+</script>
 
 
 </body></html>

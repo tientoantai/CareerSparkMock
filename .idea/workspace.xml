@@ -23,23 +23,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Career Spark.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/use-your-network/Career Spark.html">
+      <file leaf-file-name="Career Spark.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/how-to-present-yourself/Career Spark.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="454" column="31" selection-start-line="454" selection-start-column="31" selection-end-line="454" selection-end-column="31" />
+            <state relative-caret-position="-6591">
+              <caret line="245" column="44" selection-start-line="245" selection-start-column="44" selection-end-line="245" selection-end-column="44" />
               <folding>
-                <marker date="1472494733038" expanded="true" signature="32848:32860" ph="..." />
+                <element signature="n#li#0;n#ul#0;n#div#0;n#section#2;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <marker date="1472495501330" expanded="true" signature="38341:38353" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="burger.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/use-your-network/Career Spark_files/burger.css">
+      <file leaf-file-name="burger.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/how-to-present-yourself/Career Spark_files/burger.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="87">
-              <caret line="192" column="16" selection-start-line="192" selection-start-column="16" selection-end-line="192" selection-end-column="16" />
+            <state relative-caret-position="78423">
+              <caret line="4544" column="52" selection-start-line="4544" selection-start-column="52" selection-end-line="4544" selection-end-column="52" />
               <folding />
             </state>
           </provider>
@@ -59,6 +60,9 @@
         <option value="$PROJECT_DIR$/where-to-look/Career Spark.html" />
         <option value="$PROJECT_DIR$/use-your-network/Career Spark.html" />
         <option value="$PROJECT_DIR$/use-your-network/Career Spark_files/burger.css" />
+        <option value="$PROJECT_DIR$/how-to-get-the-interview/Career Spark.html" />
+        <option value="$PROJECT_DIR$/how-to-present-yourself/Career Spark_files/burger.css" />
+        <option value="$PROJECT_DIR$/how-to-present-yourself/Career Spark.html" />
       </list>
     </option>
   </component>
@@ -128,7 +132,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="what-to-look-for" />
+              <option name="myItemId" value="how-to-present-yourself" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -142,25 +146,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="what-to-look-for" />
+              <option name="myItemId" value="how-to-present-yourself" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Career Spark_files" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CareerSpark" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CareerSpark" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="use-your-network" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -177,6 +167,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/how-to-present-yourself/Career Spark_files" />
+      <recent name="$PROJECT_DIR$/how-to-get-the-interview/Career Spark_files" />
       <recent name="$PROJECT_DIR$/use-your-network/Career Spark_files" />
       <recent name="$PROJECT_DIR$/where-to-look/Career Spark_files" />
       <recent name="$PROJECT_DIR$/where-to-look" />
@@ -245,18 +237,18 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1472484948523</updated>
-      <workItem from="1472484951213" duration="7357000" />
+      <workItem from="1472484951213" duration="7959000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7357000" />
+    <option name="totallyTimeSpent" value="7959000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="33" y="-4" width="1333" height="772" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24941725" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24941725" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -387,9 +379,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/use-your-network/Career Spark_files/burger.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="192" column="16" selection-start-line="192" selection-start-column="16" selection-end-line="192" selection-end-column="16" />
+        <state relative-caret-position="166">
+          <caret line="193" column="29" selection-start-line="193" selection-start-column="29" selection-end-line="193" selection-end-column="29" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/how-to-get-the-interview/Career Spark.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="376" column="6" selection-start-line="376" selection-start-column="6" selection-end-line="376" selection-end-column="6" />
+          <folding>
+            <marker date="1472495118906" expanded="true" signature="28636:28648" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/how-to-present-yourself/Career Spark_files/burger.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78423">
+          <caret line="4544" column="52" selection-start-line="4544" selection-start-column="52" selection-end-line="4544" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/how-to-present-yourself/Career Spark.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6591">
+          <caret line="245" column="44" selection-start-line="245" selection-start-column="44" selection-end-line="245" selection-end-column="44" />
+          <folding>
+            <element signature="n#li#0;n#ul#0;n#div#0;n#section#2;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <marker date="1472495501330" expanded="true" signature="38341:38353" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

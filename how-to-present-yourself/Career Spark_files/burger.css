@@ -191,7 +191,7 @@ h1, h2, h3, h4, h5 {
 
 .header {
   height: 160px;
-  background: url(header-bg.gpng) repeat 0 0;
+  background: url(header-bg.png) repeat 0 0;
   width: 100%;
   display: block;
 }
