@@ -26,10 +26,22 @@
       <file leaf-file-name="Career Spark.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/prepare-for-the-interview/Career Spark.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
+            <state relative-caret-position="162">
               <caret line="411" column="31" selection-start-line="411" selection-start-column="31" selection-end-line="411" selection-end-column="31" />
               <folding>
                 <marker date="1472495698854" expanded="true" signature="34691:34703" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Career Spark.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/interview-timeline/Career Spark.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="489" column="23" selection-start-line="489" selection-start-column="23" selection-end-line="489" selection-end-column="23" />
+              <folding>
+                <marker date="1472496566990" expanded="true" signature="32764:32776" ph="..." />
               </folding>
             </state>
           </provider>
@@ -48,7 +60,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="burger.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="burger.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/prepare-for-the-interview/Career Spark_files/burger.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="205">
@@ -76,6 +88,7 @@
         <option value="$PROJECT_DIR$/how-to-present-yourself/Career Spark_files/burger.css" />
         <option value="$PROJECT_DIR$/how-to-present-yourself/Career Spark.html" />
         <option value="$PROJECT_DIR$/prepare-for-the-interview/Career Spark.html" />
+        <option value="$PROJECT_DIR$/interview-timeline/Career Spark.html" />
       </list>
     </option>
   </component>
@@ -159,7 +172,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="how-to-present-yourself" />
+              <option name="myItemId" value="interview-timeline" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -173,21 +186,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="how-to-get-the-interview" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CareerSpark" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CareerSpark" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="how-to-get-the-interview" />
+              <option name="myItemId" value="interview-timeline" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -208,11 +207,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/interview-timeline/Career Spark_files" />
       <recent name="$PROJECT_DIR$/prepare-for-the-interview/Career Spark_files" />
       <recent name="$PROJECT_DIR$/how-to-present-yourself/Career Spark_files" />
       <recent name="$PROJECT_DIR$/how-to-get-the-interview/Career Spark_files" />
       <recent name="$PROJECT_DIR$/use-your-network/Career Spark_files" />
-      <recent name="$PROJECT_DIR$/where-to-look/Career Spark_files" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -278,12 +277,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1472484948523</updated>
-      <workItem from="1472484951213" duration="8283000" />
+      <workItem from="1472484951213" duration="9068000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8283000" />
+    <option name="totallyTimeSpent" value="9068000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="33" y="-4" width="1333" height="772" extended-state="6" />
@@ -444,16 +443,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/prepare-for-the-interview/Career Spark.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="411" column="31" selection-start-line="411" selection-start-column="31" selection-end-line="411" selection-end-column="31" />
-          <folding>
-            <marker date="1472495698854" expanded="true" signature="34691:34703" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/how-to-present-yourself/Career Spark.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
@@ -470,6 +459,26 @@
         <state relative-caret-position="205">
           <caret line="196" column="1" selection-start-line="196" selection-start-column="1" selection-end-line="196" selection-end-column="1" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prepare-for-the-interview/Career Spark.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="411" column="31" selection-start-line="411" selection-start-column="31" selection-end-line="411" selection-end-column="31" />
+          <folding>
+            <marker date="1472495698854" expanded="true" signature="34691:34703" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interview-timeline/Career Spark.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="489" column="23" selection-start-line="489" selection-start-column="23" selection-end-line="489" selection-end-column="23" />
+          <folding>
+            <marker date="1472496566990" expanded="true" signature="32764:32776" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
